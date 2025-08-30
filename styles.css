@@ -11,18 +11,14 @@
     --Dark-gray:#1E1E1E;
     --White:#ffffff;
 
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
         /* Imported Fonts*/
 
-    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
-
 }
+
 
 /* --------------BEGIN STYLES----------------- */
 /* -------------------------------------------------- */
 
 
-h1{
-    font-weight: bold;
-    color: aqua;
-    font-family:'kavoon';
-}
