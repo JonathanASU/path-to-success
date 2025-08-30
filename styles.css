@@ -21,4 +21,85 @@
 /* --------------BEGIN STYLES----------------- */
 /* -------------------------------------------------- */
 
+body{
+    background-color: #6B8FE7;
+}
 
+.page{
+    background-color: #484FB7;
+    width: 450px;
+}
+
+header{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.section1heading h2{
+    color: #ffffff;
+}
+
+.section1heading h3{
+    color:#E9BB57;
+}
+
+.section1heading{
+    margin: 25px;
+}
+
+.menu{
+    display: block;
+    background-color: #E9BB57;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu button{
+    display: block;
+    width: 90%;
+    padding:5px;
+    margin: 8px auto;
+}
+
+.whitesquare1{
+    background-color: white;
+    padding: 50px;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.whitesquare2{
+    background-color: white;
+    padding: 50px;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.whitesquare3{
+    background-color: white;
+    padding: 50px;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.whitesquare4{
+    background-color: white;
+    padding: 50px;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.whitesquare5{
+    background-color: white;
+    padding: 50px;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.whitesquare6{
+    background-color: white;
+    padding: 50px;
+    margin: 25px;
+    border-radius: 15px;
+}
