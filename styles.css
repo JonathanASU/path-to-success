@@ -120,15 +120,29 @@ h3{
 
 .section2heading h2{
     color: #ffffff;
-    margin: 25px;
+    margin: 2px;
 }
 
 /* --------------PRICING----------------- */
 
 .section3heading h2{
     color: #ffffff;
-    margin: 25px;
+    margin: 2px;
 }
+
+table{
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    background-color: #E9BB57;
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid white
+}
+
+
 
 /* --------------TAKE THE FIRST STEP TODAY----------------- */
 
@@ -137,6 +151,8 @@ h3{
     width: 450px;
     color: #ffffff;
     padding: .5em 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 .section4heading h2{
@@ -165,21 +181,13 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 4em 0
-
-}
-
-footer p {
-    color: #ffffff;
     margin: auto;
-    font-size: small;
-    padding-bottom: 4em;
+    gap: 1em;
+
 }
 
-footer a{
+footer p, a {
     color: #ffffff;
-    margin: auto;
     font-size: small;
-    padding-bottom: 4em;
-    ;
 }
+
