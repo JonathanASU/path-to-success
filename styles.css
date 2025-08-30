@@ -38,29 +38,34 @@ header{
 
 .section1heading h2{
     color: #ffffff;
-}
-
-.section1heading h3{
-    color:#E9BB57;
-}
-
-.section1heading{
     margin: 25px;
+}
+
+h3{
+    margin: 25px;
+    color: #E9BB57;
 }
 
 .menu{
     display: block;
     background-color: #E9BB57;
     text-align: center;
-    padding: 20px;
+    padding: 2px 5px 7px 5px;
 }
 
 .menu button{
     display: block;
     width: 90%;
+    height: 3em;
     padding:5px;
     margin: 8px auto;
+    border: none;
+    color: #484FB7;
+    font-weight: bold;
 }
+
+/* --------------OUR SERVICES----------------- */
+
 
 .whitesquare1{
     background-color: white;
@@ -102,4 +107,79 @@ header{
     padding: 50px;
     margin: 25px;
     border-radius: 15px;
+}
+
+.whitesquare7{
+    background-color: white;
+    padding: 50px;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+/* --------------WHY CHOOSE US----------------- */
+
+.section2heading h2{
+    color: #ffffff;
+    margin: 25px;
+}
+
+/* --------------PRICING----------------- */
+
+.section3heading h2{
+    color: #ffffff;
+    margin: 25px;
+}
+
+/* --------------TAKE THE FIRST STEP TODAY----------------- */
+
+.section4heading{
+    background-color:#D9526F;
+    width: 450px;
+    color: #ffffff;
+    padding: .5em 0;
+}
+
+.section4heading h2{
+    margin: 10px;
+}
+
+.section4heading p{
+    margin: 10px;
+}
+
+.schedulebutton{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    box-shadow: 2px 5px 4px #000000;
+}
+
+/* --------------FOOTER----------------- */
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4em 0
+
+}
+
+footer p {
+    color: #ffffff;
+    margin: auto;
+    font-size: small;
+    padding-bottom: 4em;
+}
+
+footer a{
+    color: #ffffff;
+    margin: auto;
+    font-size: small;
+    padding-bottom: 4em;
+    ;
 }
