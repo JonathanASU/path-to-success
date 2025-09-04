@@ -2,6 +2,10 @@
 
 /* --------------CSS by Jonathan Newkirk----------------- */
 
+/* --------------Imported Fonts----------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
 /* --------------CSS Reset----------------- */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -66,13 +70,6 @@ table {
 
 }
 
-/* --------------Imported Fonts----------------- */
-
-@font-face{
-    font-family: "path-to-success";
-    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
-}
-
 /* --------------BEGIN GLOBAL STYLES----------------- */
 /* -------------------------------------------------- */
 
@@ -81,7 +78,11 @@ body{
 }
 
 h1{
-    font-family: "kavoon";
+    font-family: 'Kavoon', cursive;
+}
+
+h2{
+    font-family: 'Kavoon', cursive;
 }
 
 .page{
