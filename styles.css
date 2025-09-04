@@ -142,6 +142,7 @@ main h2{
 
 main h3{
     color: var(--Yellow);
+    font-weight: bold;
 }
 
 img{
