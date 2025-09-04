@@ -76,180 +76,197 @@ table {
 body{
     max-width: 450px;
     margin: 0 auto;
-    background-color: var(--purple);
+    background-color: var(--Purple);
 }
 
-h1{
-    font-family: 'Kavoon', cursive;
+header h1{
+    font-family: 'Kavoon', sans-serif;
     font-size: 3em;
     padding: 5px;
-}
-
-#page h2{
-    font-family: 'Inter', sans-serif;
-    font-size: 1em;
-    padding: 2px;
-}
-
-#title p{
-    font-weight: bold;
-}
-
-#page{
-    background-color: #484FB7;
-    width: 450px;
-}
-
-header{
-    color: white;
     text-align: center;
-    padding: 20px;
+    color: var(--White);
 }
 
-.section1heading h2{
-    color: #ffffff;
-    margin: 25px;
+#tagline h4{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: var(--White);
+    padding: 10px;
+}
+
+h2{
+    font-family: 'Kavoon', sans-serif;
+    font-size: 2em;
 }
 
 h3{
-    margin: 25px;
-    color: #E9BB57;
-    font-family: "inter", sans-serif;
-}
-
-.menu{
-    display: block;
-    background-color: #E9BB57;
-    text-align: center;
-    padding: 2px 10px 10px 5px;
-}
-
-.menu button{
-    display: block;
-    width: 90%;
-    height: 3em;
-    padding:5px;
-    margin: 8px auto;
-    border: none;
-    color: #484FB7;
-    font-weight: bold;
-}
-
-.menu h2{
-    padding: 5px;
-    font-family: "Inter", sans-serif;
-    font-style: oblique;
-    font-weight: bold;
     font-size: 1.5em;
+    font-family: 'Inter', sans-serif;
 }
 
-/* --------------OUR SERVICES----------------- */
+h4{
+    font-size: 1.15em;
+    font-family: 'Inter', sans-serif;
+}
+
+nav h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+nav{
+    background-color: var(--Yellow);
+    padding: 15px;
+    margin: 10px 0;
+}
+
+
+nav li a{
+    color: var(--Purple);
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    display: block;
+    text-align: center;
+    margin: 15px;
+    text-decoration: none;
+    padding:15px;
+    background-color: var(--White);
+}
+
+main h2{
+    color:var(--White);
+
+}
+
+main h3{
+    color: var(--Yellow);
+}
 
 img{
-    width: 75px;
-    padding: .2em;
+    width: 25px;
+    padding: 5px;
 }
 
-#whitesquare{
-    background-color: white;
-    padding: 10px;
-    margin: 25px;
-    border-radius: 15px;
+#personaldevelopment{
+    background-color: var(--White);
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
 }
 
-/* --------------WHY CHOOSE US----------------- */
-
-.section2heading h2{
-    color: #ffffff;
-    margin: 25px;
+#personaldevelopment h4{
+    color: var(--Purple);
+    font-weight: bold;
+    padding: 5px 0;
 }
 
-.section2heading{
-    background-color: #D9526F;
+#personaldevelopment p{
+    font-family: 'Inter', sans-serif;
 }
 
-.grid{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5px;
+#careercoaching{
+    background-color: var(--White);
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
 }
 
-.grid div{
-    background: #E9BB57;
-    border-radius: 5px;
-    text-align: center;
+#careercoaching h4{
+    color: var(--Purple);
+    font-weight: bold;
+    padding: 5px 0;
 }
 
-/* --------------PRICING----------------- */
-
-.section3heading h2{
-    color: #ffffff;
-    margin: 25px;
+#careercoaching p{
+    font-family: 'Inter', sans-serif;
 }
 
-table{
-    width: 50%;
-    padding: 1px;
-    text-align: center;
-    background-color: #E9BB57;
-    margin: auto;
+#relationshipcoaching{
+    background-color: var(--White);
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+}
+#relationshipcoaching h4{
+    color: var(--Purple);
+    font-weight: bold;
+    padding: 5px 0;
 }
 
-th{
-    padding: .25em .75em;
+#relationshipcoaching p{
+    font-family: 'Inter', sans-serif;
 }
 
-td {
-    background-color:#ffffff;
-    padding: .5em .75em;
+#supportivecommunity{
+    background-color: var(--White);
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
 }
 
-
-
-/* --------------TAKE THE FIRST STEP TODAY----------------- */
-
-.section4heading{
-    background-color:#D9526F;
-    width: 450px;
-    color: #ffffff;
-    padding: .5em 0;
-    margin-top: 10px;
-    margin-bottom: 15px;
+#supportivecommunity h4{
+    color: var(--Purple);
+    font-weight: bold;
+    padding: 5px 0;
 }
 
-.section4heading h2{
-    margin: 10px;
+#supportivecommunity p{
+    font-family: 'Inter', sans-serif;
 }
 
-.section4heading p{
-    margin: 10px;
+#focusedsession{
+    background-color: var(--White);
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
 }
 
-.schedulebutton{
-    display: block;
-    margin: 0 auto;
-    width: 400px;
-    height: 50px;
-    border-radius: 10px;
-    border: none;
-    padding: 10px;
-    box-shadow: 2px 5px 4px #000000;
+#focusedsession h4{
+    color: var(--Purple);
+    font-weight: bold;
+    padding: 5px 0;
 }
 
-/* --------------FOOTER----------------- */
-
-
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    gap: 1em;
-
+#focusedsession p{
+    font-family: 'Inter', sans-serif;
 }
 
-footer p, a {
-    color: #ffffff;
-    font-size: small;
+#interactivelearning{
+    background-color: var(--White);
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
 }
 
+#interactivelearning h4{
+    color: var(--Purple);
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+#interactivelearning p{
+    font-family: 'Inter', sans-serif;
+}
+
+#flexiblelearning{
+    background-color: var(--White);
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#flexiblelearning h4{
+    color: var(--Purple);
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+#flexiblelearning p{
+    font-family: 'Inter', sans-serif;
+}
+
+#why-choose{
+    background-color: var(--Pink);
+}
