@@ -291,7 +291,6 @@ img{
     text-align: center;
     padding: 20px;
     margin: 10px;
-    line-height: 1.5em;
 }
 
 #box2{
@@ -308,7 +307,6 @@ img{
     text-align: center;
     padding:20px;
     margin: 10px;
-    line-height: 1.5em;
 }
 
 #box4{
@@ -323,8 +321,24 @@ img{
     padding-top: 10px;
 }
 
-table tr th{
+table{
     background-color: var(--Yellow);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.15em;
+    margin: 25px auto;
+
+}
+
+th{
+    padding: 20px;
+    text-align: center;
+}
+
+td{
+    background-color: var(--White);
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #E9BB57;
 }
 
 #first-step{
@@ -342,7 +356,6 @@ table tr th{
     color: var(--White);
     padding: 10px;
     line-height: 1.5em;
-
 }
 
 #schedulebutton{
