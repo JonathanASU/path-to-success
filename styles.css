@@ -137,16 +137,19 @@ nav li a{
 
 main h2{
     color:var(--White);
+    padding-left: 20px;
+    padding-bottom: 10px;
 
 }
 
 main h3{
     color: var(--Yellow);
     font-weight: bold;
+    padding-left: 20px;
 }
 
 img{
-    width: 25px;
+    width: 100px;
     padding: 5px;
 }
 
@@ -271,3 +274,100 @@ img{
 #why-choose{
     background-color: var(--Pink);
 }
+
+#why-choose h2{
+    padding-top: 10px;
+}
+
+#stack{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: bold;
+}
+
+#box1{
+    background-color: var(--Teal);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    line-height: 1.5em;
+}
+
+#box2{
+    background-color: var(--Lavender);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+#box3{
+    background-color: var(--Yellow);
+    border-radius: 10px;
+    text-align: center;
+    padding:20px;
+    margin: 10px;
+    line-height: 1.5em;
+}
+
+#box4{
+    background-color: var(--White);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+#prices h2{
+    padding-top: 10px;
+}
+
+table tr th{
+    background-color: var(--Yellow);
+}
+
+#first-step{
+    background-color: var(--Pink);
+    padding:10px;
+}
+
+#first-step h2{
+    padding-top: 25px;
+}
+
+#first-step h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.15em;
+    color: var(--White);
+    padding: 10px;
+    line-height: 1.5em;
+
+}
+
+#schedulebutton{
+    display: block;
+    width: 350px;
+    height: 50px;
+    margin: 15px auto;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin:50px;
+}
+
+footer{
+    color: var(--White);
+}
+
+footer a{
+    color: var(--White);
+    text-decoration: none;
+}
+
