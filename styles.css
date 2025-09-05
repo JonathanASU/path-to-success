@@ -168,6 +168,7 @@ img{
 
 #personaldevelopment p{
     font-family: 'Inter', sans-serif;
+    line-height: 1.25em;
 }
 
 #careercoaching{
@@ -185,6 +186,7 @@ img{
 
 #careercoaching p{
     font-family: 'Inter', sans-serif;
+    line-height: 1.25em;
 }
 
 #relationshipcoaching{
@@ -201,6 +203,7 @@ img{
 
 #relationshipcoaching p{
     font-family: 'Inter', sans-serif;
+    line-height: 1.25em;
 }
 
 #supportivecommunity{
@@ -218,6 +221,7 @@ img{
 
 #supportivecommunity p{
     font-family: 'Inter', sans-serif;
+    line-height: 1.25em;
 }
 
 #focusedsession{
@@ -235,6 +239,7 @@ img{
 
 #focusedsession p{
     font-family: 'Inter', sans-serif;
+    line-height: 1.25em;
 }
 
 #interactivelearning{
@@ -252,6 +257,7 @@ img{
 
 #interactivelearning p{
     font-family: 'Inter', sans-serif;
+    line-height: 1.25em;
 }
 
 #flexiblelearning{
@@ -269,6 +275,7 @@ img{
 
 #flexiblelearning p{
     font-family: 'Inter', sans-serif;
+    line-height: 1.25em;
 }
 
 #why-choose{
@@ -332,6 +339,7 @@ table{
 th{
     padding: 20px;
     text-align: center;
+    font-weight: bold;
 }
 
 td{
